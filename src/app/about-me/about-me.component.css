@@ -1,6 +1,7 @@
-/* About Section Styling */
+/*
+/* About Section Styling 
 .bg-light {
-    background-color: #f8f9fa; /* light background */
+    background-color: #f8f9fa; /* light background 
   }
   
   .text-gradient {
@@ -61,4 +62,9 @@
     transform: scale(1.05);
   }
   
-  
+*/
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+}
