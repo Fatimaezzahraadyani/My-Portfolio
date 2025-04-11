@@ -6,12 +6,17 @@ import { HomePortfolioComponent } from './home-portfolio/home-portfolio.componen
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+import { ProjectsComponent } from './projects/projects.component';
 import { RouterModule } from '@angular/router';
 import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,NavbarComponent,FooterPortfolioComponent,HomePortfolioComponent,AboutMeComponent,ResumeComponent,ContactComponent],
+  imports: [
+    RouterOutlet,NavbarComponent,
+    FooterPortfolioComponent,HomePortfolioComponent,
+    AboutMeComponent,ResumeComponent,
+    ContactComponent,ProjectsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
