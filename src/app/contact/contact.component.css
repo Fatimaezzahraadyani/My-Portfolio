@@ -1,0 +1,35 @@
+#contact {
+    background: linear-gradient(120deg, #f8f9fa 0%, #ffffff 100%);
+  }
+  
+  #contact .form-control {
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  #contact .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.2);
+  }
+  
+  #contact .btn-primary {
+    padding: 12px 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* #contact .btn-primary:hover {
+    background-color: #0b5ed7;
+  } */
+  #submitButton {
+    background-color: #FBBFB8;
+  
+    transition: background-color 0.3s ease;
+  }
+  
+  /* #submitButton:hover {
+    background-color:#F0604D;
+  } */
+  
+  

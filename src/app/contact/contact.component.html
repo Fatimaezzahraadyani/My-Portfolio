@@ -1,0 +1,71 @@
+<section class="section py-5 bg-light" id="contact">
+    <div class="container px-4 px-lg-5">
+      <!-- Contact Form Wrapper -->
+      <div class="bg-white rounded-4 shadow p-5">
+        <div class="text-center mb-5">
+            <div class="d-inline-flex align-items-center justify-content-center rounded-circle shadow" 
+            style="width: 70px; height: 70px; background-color:  #FBBFB8;">
+         <i class="bi bi-envelope fs-3" style="color: brown;"></i>
+       </div>
+       
+          <h2 class="fw-bold">Get in Touch</h2>
+          <p class="lead text-muted mb-0">Let’s work together and bring your ideas to life!</p>
+        </div>
+  
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-6">
+            <form id="contactForm">
+              <!-- Name -->
+              <div class="form-floating mb-3">
+                <input class="form-control" id="name" type="text" placeholder="Your Name" required>
+                <label for="name">Full Name</label>
+                <div class="invalid-feedback">A name is required.</div>
+              </div>
+  
+              <!-- Email -->
+              <div class="form-floating mb-3">
+                <input class="form-control" id="email" type="email" placeholder="name@example.com" required>
+                <label for="email">Email Address</label>
+                <div class="invalid-feedback">A valid email is required.</div>
+              </div>
+  
+              <!-- Phone -->
+              <div class="form-floating mb-3">
+                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" required>
+                <label for="phone">Phone Number</label>
+                <div class="invalid-feedback">A phone number is required.</div>
+              </div>
+  
+              <!-- Message -->
+              <div class="form-floating mb-3">
+                <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+                <label for="message">Message</label>
+                <div class="invalid-feedback">A message is required.</div>
+              </div>
+  
+              <!-- Success Message -->
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center text-success mb-3 fw-bold">
+                  Message sent successfully!
+                </div>
+              </div>
+  
+              <!-- Error Message -->
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3 fw-bold">
+                  Error sending message. Please try again.
+                </div>
+              </div>
+  
+              <!-- Submit Button -->
+              <div class="d-grid">
+                <button class="btn btn-lg" id="submitButton" type="submit" style="color: brown;">Send Message</button>
+              </div>
+  
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

@@ -1,12 +1,27 @@
-<div>
-  <section id=""></section>
+<!-- <div>
+ 
 <app-navbar></app-navbar>
 <app-home-portfolio></app-home-portfolio>
 <app-about-me></app-about-me>
 <app-resume></app-resume>
-
+<app-contact></app-contact>
 
 <app-footer-portfolio></app-footer-portfolio>
 
 </div>
-<router-outlet></router-outlet>
+<router-outlet></router-outlet> -->
+<app-navbar></app-navbar>
+
+<main
+  class="scroll-container"
+  data-bs-spy="scroll"
+  data-bs-target="#navbarNav"
+  data-bs-offset="80"
+  tabindex="0"
+>
+<app-home-portfolio id="home"></app-home-portfolio>
+<app-about-me id="about"></app-about-me>
+  <app-resume id="resume"></app-resume>
+
+  <app-contact id="contact"></app-contact>
+</main>

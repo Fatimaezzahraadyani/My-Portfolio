@@ -5,14 +5,17 @@ import { FooterPortfolioComponent } from './footer-portfolio/footer-portfolio.co
 import { HomePortfolioComponent } from './home-portfolio/home-portfolio.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ResumeComponent } from './resume/resume.component';
-
+import { ContactComponent } from './contact/contact.component';
+import { RouterModule } from '@angular/router';
+import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,NavbarComponent,FooterPortfolioComponent,HomePortfolioComponent,AboutMeComponent,ResumeComponent],
+  imports: [RouterOutlet,NavbarComponent,FooterPortfolioComponent,HomePortfolioComponent,AboutMeComponent,ResumeComponent,ContactComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'MyPort-Folio';
 }
+

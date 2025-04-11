@@ -1,0 +1,38 @@
+.text-gradient {
+    background: linear-gradient(45deg, #5e60ce, #00b4d8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .progress-container {
+    background-color: #e9ecef;
+    border-radius: 50px;
+    overflow: hidden;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .progress-bar-custom {
+    background: linear-gradient(90deg, #5e60ce, #48cae4);
+    height: 100%;
+    border-radius: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    animation: fillProgress 1.4s ease-in-out forwards;
+    width: 0;
+  }
+  
+  @keyframes fillProgress {
+    from {
+      width: 0;
+    }
+  }
+  
+
+  
