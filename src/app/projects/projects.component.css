@@ -1,0 +1,39 @@
+/* Gradient text like other sections */
+/* .text-gradient {
+    background: linear-gradient(to right, #ff8800, #ffa733);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+  
+  /* Optional: if you want a stronger gradient for CTA section */
+  .bg-gradient-primary-to-secondary {
+    background: linear-gradient(to right, #ff8800, #ffa733);
+  }
+  
+  /* Smooth card hover effect (optional) */
+  .card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section padding and consistent spacing */
+  section {
+    scroll-margin-top: 80px; /* useful for anchor navigation */
+  }
+  
+  /* Responsive image control (if needed) */
+  .card img {
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  /* If you want to add border animation on hover */
+  .card {
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  .text-gradient {
+    background: linear-gradient(45deg, #5e60ce, #00b4d8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
